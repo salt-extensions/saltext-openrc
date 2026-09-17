@@ -59,9 +59,9 @@ repos:
     rev: 75992aaa40730136014f34227e0135f63fc951b4  # v3.21.2
     hooks:
       - id: pyupgrade
-        name: Rewrite Code to be Py3.10+
+        name: Rewrite Code to be Py3.11+
         args: [
-          --py310-plus,
+          --py311-plus,
         ]
         exclude: src/saltext/openrc/version.py
 
